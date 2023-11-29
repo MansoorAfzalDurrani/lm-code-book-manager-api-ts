@@ -134,7 +134,7 @@ describe("POST /api/v1/books endpoint", () => {
 	});
 });
 
-// user story 5 Delete Book by id
+// delete book by id
 describe("Delete /api/v1/books/{bookId} endpoint", () => {
   test("status code successfully 200 for a book that is found  And deleted", async () => {
     // Arrange

@@ -42,3 +42,4 @@ export const deleteBookById = async (req: Request, res: Response) => {
 	await bookService.deleteBookById(bookId);
 	res.status(204).end();
 }
+
